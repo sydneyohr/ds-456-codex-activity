@@ -29,12 +29,12 @@ You may work in **Python (VS Code)** or **R (VS Code or RStudio)**.
   - Click “Use API Key” and use the key Shilad gave you.  
     **DO NOT PUT THIS KEY ANYWHERE IN YOUR GITHUB REPO.**
   - Open Codex settings → “Open `config.toml`” and set it to:
-    ```toml
+    ``toml
     model = "gpt-5.1"
     model_reasoning_effort = "medium"
 
     [tools]
-    web_search_request = true
+    web_search_re`quest = true
 
     [sandbox_workspace_write]
     network_access = true
